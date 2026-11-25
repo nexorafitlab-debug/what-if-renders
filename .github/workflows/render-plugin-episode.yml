@@ -1,0 +1,214 @@
+name: Render plugin episode
+
+# Renders an aiTrends 2D Studio plugin project in N PARALLEL chunks on free GitHub runners,
+# then stitches them into a video IDENTICAL to the local render.
+#
+# WHY THIS WORKFLOW LIVES IN A PUBLIC REPO (dual-repo setup, 2026-11-25):
+# GitHub Actions billing (docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions):
+#   "The following usage remains free independently and does not reduce the included compute usage:
+#    - Standard GitHub-hosted runners in public repositories."
+#   "The use of standard GitHub-hosted runners is free: In public repositories"
+# The old private repo (what-if-plugin-engine) exhausted the account's free allowance in
+# November (2,497 of 2,000 minutes; artifact storage blocked until Dec 1 on accrued
+# GB-Hours). This public repo therefore gets UNLIMITED free standard-runner minutes.
+# The PROJECT files live HERE (plugin-projects/) — this workflow checks out this repo.
+# The render ENGINE stays private: it lives inside the Docker image
+# ghcr.io/nexorafitlab-debug/plugin-render (private package), which is only PULLED here,
+# never published. No engine code is in this repo.
+#
+# IMAGE ACCESS — two paths, in order:
+#  (i) Grant this repo access to the private package in the package settings
+#      ("Manage Actions access" -> Add Repository). Then the built-in GITHUB_TOKEN
+#      pulls the image with no extra setup. NOTE: there is NO REST API for this
+#      grant (verified 2026-11-25 — the Packages API has no add-repository endpoint),
+#      so it must be done once in the package-settings web UI.
+#  (ii) If (i) is not done, store a token with read:packages scope as repo secret
+#       GHCR_TOKEN and the workflow uses it as the container password instead.
+# The container credentials below try GHCR_TOKEN first, falling back to GITHUB_TOKEN.
+#
+# CHUNKS VIA ACTIONS CACHE, not artifacts (artifact storage is the exhausted quota):
+# Each render job saves its lossless chunk with actions/cache (key
+# chunks-<run_id>-<index>). The stitch job restores all 10 keys with explicit
+# restore steps, one per index. Cache is a separate 10 GB per-repo allowance;
+# chunks total ~1 GB per video. Cache keys are per-run and expire; nothing long-lived.
+#
+# FINAL VIDEO VIA GITHUB RELEASE, not an artifact: the stitch job creates a Release
+# (tag <project>-<run_number>) and uploads final.mp4 as a release asset with the gh CLI.
+# No final-video artifact is uploaded anywhere. Download the video from the Release.
+#
+# How it stays identical:
+#  - Frames are drawn by the same plugin engine, in a pre-built Docker image
+#    (ghcr.io/nexorafitlab-debug/plugin-render, private) so no browser is installed per run.
+#  - render.mjs pins -threads 6 (the only encode setting that changes decoded pixels).
+#  - Chunk jobs output LOSSLESS yuv420p (libx264 crf 0) — exact YUV pixels, no lossy step. yuv420p (not RGB) so the stitch re-encodes the same YUV values the direct PNG render feeds x264, with no colorspace conversion in between.
+#  - The stitch job re-encodes exactly the ranges the LOCAL build encoded as separate
+#    x264 passes (encode_ranges input, default [[0,29],[29,57.73]] for the test project),
+#    same settings (libx264, preset medium, crf 18, yuv420p, 24fps, threads 6), then
+#    concats with -c copy and muxes the COMMITTED final mix (build/mix_final.wav) to AAC 320k.
+#  - Audio is made locally and committed with the project — GitHub never synthesises audio,
+#    so the sound is identical by construction. The final loudnorms to -14 LUFS, TP < -1.0.
+#
+# Trigger: Actions tab (in THIS repo) -> "Render plugin episode" -> Run workflow -> pick
+# the project folder under plugin-projects/ in this repo. The final MP4 downloads
+# from the run's Release (tag <project>-<run_number>), NOT from artifacts.
+
+on:
+  workflow_dispatch:
+    inputs:
+      project:
+        description: "Project folder under plugin-projects in what-if-renders (e.g. feathers-1min)"
+        required: true
+        default: "feathers-1min"
+      chunks:
+        description: "Number of parallel render chunks"
+        required: false
+        default: "10"
+      encode_ranges:
+        description: 'JSON [from,to] second-ranges the local build encoded as separate x264 passes, e.g. [[0,55.18]]'
+        required: false
+        default: "[[0,29],[29,57.73]]"
+      fps:
+        description: "Output fps for the stitch step — MUST match the project's config.json fps (24 for 1-min samples, 60 for full videos)"
+        required: false
+        default: "24"
+
+permissions:
+  contents: write
+  packages: read
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.split.outputs.matrix }}
+      duration: ${{ steps.split.outputs.duration }}
+      title: ${{ steps.split.outputs.title }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Split shots into chunks
+        id: split
+        run: node .github/scripts/split-chunks.mjs "plugin-projects/${{ inputs.project }}" "${{ inputs.chunks }}"
+
+  render:
+    needs: setup
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/nexorafitlab-debug/plugin-render:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GHCR_TOKEN || secrets.GITHUB_TOKEN }}
+    strategy:
+      matrix:
+        chunk: ${{ fromJson(needs.setup.outputs.matrix) }}
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render chunk (lossless)
+        env:
+          TMPDIR: ${{ github.workspace }}/.tmp
+        run: |
+          mkdir -p "$TMPDIR" "$GITHUB_WORKSPACE/build" "$GITHUB_WORKSPACE/chunks"
+          node /opt/plugin/render.mjs \
+            --project "$GITHUB_WORKSPACE/plugin-projects/${{ inputs.project }}" \
+            --workers 1 \
+            --from ${{ matrix.chunk.from }} --to ${{ matrix.chunk.to }} \
+            --vcodec libx264 --pix_fmt yuv420p --crf 0 --preset ultrafast --threads 6 \
+            --out "$GITHUB_WORKSPACE/chunks/chunk_${{ matrix.chunk.index }}.mp4"
+          ls -lh "$GITHUB_WORKSPACE/chunks/chunk_${{ matrix.chunk.index }}.mp4"
+      # Chunks travel via Actions cache (10 GB per-repo allowance), NOT artifacts.
+      # Key is per-run + per-index; the stitch job restores each key explicitly.
+      - uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_${{ matrix.chunk.index }}.mp4
+          key: chunks-${{ github.run_id }}-${{ matrix.chunk.index }}
+
+  stitch:
+    needs: [setup, render]
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/nexorafitlab-debug/plugin-render:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.GHCR_TOKEN || secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      # Restore all 10 chunk caches, one explicit step per index (no artifact download).
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_0.mp4
+          key: chunks-${{ github.run_id }}-0
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_1.mp4
+          key: chunks-${{ github.run_id }}-1
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_2.mp4
+          key: chunks-${{ github.run_id }}-2
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_3.mp4
+          key: chunks-${{ github.run_id }}-3
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_4.mp4
+          key: chunks-${{ github.run_id }}-4
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_5.mp4
+          key: chunks-${{ github.run_id }}-5
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_6.mp4
+          key: chunks-${{ github.run_id }}-6
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_7.mp4
+          key: chunks-${{ github.run_id }}-7
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_8.mp4
+          key: chunks-${{ github.run_id }}-8
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/chunks/chunk_9.mp4
+          key: chunks-${{ github.run_id }}-9
+      - name: Stitch + mux + verify
+        env:
+          TMPDIR: ${{ github.workspace }}/.tmp
+        run: |
+          mkdir -p "$TMPDIR" "$GITHUB_WORKSPACE/build"
+          ls -lh "$GITHUB_WORKSPACE/chunks/"
+          node .github/scripts/stitch.mjs \
+            --project "$GITHUB_WORKSPACE/plugin-projects/${{ inputs.project }}" \
+            --chunks "$GITHUB_WORKSPACE/chunks" \
+            --ranges '${{ inputs.encode_ranges }}' \
+            --fps ${{ inputs.fps }} \
+            --mix "$GITHUB_WORKSPACE/plugin-projects/${{ inputs.project }}/build/mix_final.wav" \
+            --work "$GITHUB_WORKSPACE/build" \
+            --out "$GITHUB_WORKSPACE/build/final.mp4"
+      # Final video goes out as a GitHub Release asset, NOT an artifact.
+      # The Release step runs in a separate host job (below) because `gh` is not
+      # guaranteed inside the render container; the final mp4 travels there via cache.
+      - uses: actions/cache@v4
+        with:
+          path: ${{ github.workspace }}/build/final.mp4
+          key: final-${{ github.run_id }}
+
+  release:
+    needs: stitch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/cache/restore@v4
+        with:
+          path: ${{ github.workspace }}/build/final.mp4
+          key: final-${{ github.run_id }}
+      - name: Publish final video as a Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ls -lh "$GITHUB_WORKSPACE/build/final.mp4"
+          gh release create "${{ inputs.project }}-${{ github.run_number }}" \
+            --title "${{ inputs.project }} run ${{ github.run_number }}" \
+            --notes "Rendered from ${{ inputs.project }} (chunks=${{ inputs.chunks }}, fps=${{ inputs.fps }}, ranges=${{ inputs.encode_ranges }}). Chunks via Actions cache; final via Release." \
+            "$GITHUB_WORKSPACE/build/final.mp4"
