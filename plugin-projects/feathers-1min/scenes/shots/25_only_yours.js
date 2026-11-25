@@ -11,5 +11,5 @@ registerShot('s025', { draw(g, t, info) {
     drawFigure(g, { x: E.W * 0.60, y: GY, s: V(1.45, 1.55), facing: -1, outfit: CAST.STU1.outfit, pose: breathe(POSES.stand, t), expr: 'neutral', talk: 0, blink: (t % 3.7) < 0.12, look: [-0.4, 0] });
     drawFigure(g, { x: E.W * 0.78, y: GY, s: V(1.45, 1.55), facing: -1, outfit: CAST.STU3.outfit, pose: breathe(POSES.stand, t), expr: 'smile', talk: 0, blink: (t % 3.7) < 0.12, look: [-0.4, 0] });
   });
-  text(g, 'ONLY YOURS.', E.W / 2, E.H * 0.16, { size: V(46, 50), color: '#ffd76a', font: FONTS.ui, weight: 900, spacing: 4, glow: 18, glowColor: 'rgba(255,215,106,0.55)', alpha: clamp(prog(t, 1.4, 1.7)) });
+  text(g, 'ONLY YOURS.', E.W / 2, E.H * 0.47, { size: V(46, 50), color: '#ffd76a', font: FONTS.ui, weight: 900, spacing: 4, glow: 18, glowColor: 'rgba(255,215,106,0.55)', alpha: clamp(prog(t, 1.4, 1.7)) });
 } });
