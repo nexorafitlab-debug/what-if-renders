@@ -19,6 +19,6 @@ registerShot('s017', { draw(g, t, info) {
     drawFigure(g, { x: E.W * 0.90, y: GY, s: V(1.4, 1.5), facing: -1, outfit: CAST.STU2.outfit, pose: breathe(posesAt(t, [[0, POSES.stand], [0.8, POSES.point]]), t), expr: 'surprised', talk: 0, blink: (t % 3.7) < 0.12, look: [-0.5, 0] });
     drawFigure(g, { ...kaiFig, expr: exprAt(t, [[0, 'nervous'], [1.2, 'sad']]), talk: talkAmount(info.globalT), blink: (t % 3.7) < 0.12, look: [0.3, 0], rim });
   });
-  const [cx, cy] = featherAnchor(kaiFig, 'collar');
+  const [cx, cy] = featherAnchor(kaiFig, 'wrist');
   drawFeather(g, cx, cy, 70, { color: 'white', rot: -1.0 + Math.sin(t * 1.2) * 0.05 });
 } });
