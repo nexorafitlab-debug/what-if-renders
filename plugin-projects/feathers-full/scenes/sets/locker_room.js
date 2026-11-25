@@ -1,0 +1,47 @@
+import { E, V, mood, backdrop, linGrad, alpha, veil, circle, rr, fillRect, seg, text, FONTS, glow } from '/engine/core.js';
+import { sun, dust, windowFrame, floorLines, clock, clouds, stars } from '/engine/fx2d.js';
+
+export function lockerRoom(g, t, info, params = {}) {
+  const m = mood('interiorCool');
+  const GY = E.H * 0.84, CX = E.W / 2;
+  backdrop(g, ['#2c4048', '#182830'], [-E.W, -E.H, E.W * 3, E.H * 3]);
+  fillRect(g, -E.W, 0, E.W * 3, GY, '#24343a');
+  fillRect(g, -E.W, GY, E.W * 3, E.H, '#141f22');
+  floorLines(g, GY + 6, E.H);
+  rr(g, E.W * 0.04 + 0, E.H * 0.16, 120, 540, 6); g.fillStyle = '#2e4a55'; g.fill();
+  g.strokeStyle = 'rgba(0,0,0,0.35)'; g.lineWidth = 3; g.stroke();
+  seg(g, [[E.W * 0.04 + 0 + 20, E.H * 0.16 + 40], [E.W * 0.04 + 0 + 60, E.H * 0.16 + 40]], 3, 'rgba(0,0,0,0.3)');
+  seg(g, [[E.W * 0.04 + 0 + 20, E.H * 0.16 + 54], [E.W * 0.04 + 0 + 60, E.H * 0.16 + 54]], 3, 'rgba(0,0,0,0.3)');
+  circle(g, E.W * 0.04 + 0 + 120 / 2, E.H * 0.16 + 540 * 0.75, 9, '#8a93a8');
+  rr(g, E.W * 0.04 + 138, E.H * 0.16, 120, 540, 6); g.fillStyle = '#36545e'; g.fill();
+  g.strokeStyle = 'rgba(0,0,0,0.35)'; g.lineWidth = 3; g.stroke();
+  seg(g, [[E.W * 0.04 + 138 + 20, E.H * 0.16 + 40], [E.W * 0.04 + 138 + 60, E.H * 0.16 + 40]], 3, 'rgba(0,0,0,0.3)');
+  seg(g, [[E.W * 0.04 + 138 + 20, E.H * 0.16 + 54], [E.W * 0.04 + 138 + 60, E.H * 0.16 + 54]], 3, 'rgba(0,0,0,0.3)');
+  circle(g, E.W * 0.04 + 138 + 120 / 2, E.H * 0.16 + 540 * 0.75, 9, '#8a93a8');
+  rr(g, E.W * 0.04 + 276, E.H * 0.16, 120, 540, 6); g.fillStyle = '#2e4a55'; g.fill();
+  g.strokeStyle = 'rgba(0,0,0,0.35)'; g.lineWidth = 3; g.stroke();
+  seg(g, [[E.W * 0.04 + 276 + 20, E.H * 0.16 + 40], [E.W * 0.04 + 276 + 60, E.H * 0.16 + 40]], 3, 'rgba(0,0,0,0.3)');
+  seg(g, [[E.W * 0.04 + 276 + 20, E.H * 0.16 + 54], [E.W * 0.04 + 276 + 60, E.H * 0.16 + 54]], 3, 'rgba(0,0,0,0.3)');
+  circle(g, E.W * 0.04 + 276 + 120 / 2, E.H * 0.16 + 540 * 0.75, 9, '#8a93a8');
+  rr(g, E.W * 0.04 + 414, E.H * 0.16, 120, 540, 6); g.fillStyle = '#36545e'; g.fill();
+  g.strokeStyle = 'rgba(0,0,0,0.35)'; g.lineWidth = 3; g.stroke();
+  seg(g, [[E.W * 0.04 + 414 + 20, E.H * 0.16 + 40], [E.W * 0.04 + 414 + 60, E.H * 0.16 + 40]], 3, 'rgba(0,0,0,0.3)');
+  seg(g, [[E.W * 0.04 + 414 + 20, E.H * 0.16 + 54], [E.W * 0.04 + 414 + 60, E.H * 0.16 + 54]], 3, 'rgba(0,0,0,0.3)');
+  circle(g, E.W * 0.04 + 414 + 120 / 2, E.H * 0.16 + 540 * 0.75, 9, '#8a93a8');
+  rr(g, E.W * 0.04 + 552, E.H * 0.16, 120, 540, 6); g.fillStyle = '#2e4a55'; g.fill();
+  g.strokeStyle = 'rgba(0,0,0,0.35)'; g.lineWidth = 3; g.stroke();
+  seg(g, [[E.W * 0.04 + 552 + 20, E.H * 0.16 + 40], [E.W * 0.04 + 552 + 60, E.H * 0.16 + 40]], 3, 'rgba(0,0,0,0.3)');
+  seg(g, [[E.W * 0.04 + 552 + 20, E.H * 0.16 + 54], [E.W * 0.04 + 552 + 60, E.H * 0.16 + 54]], 3, 'rgba(0,0,0,0.3)');
+  circle(g, E.W * 0.04 + 552 + 120 / 2, E.H * 0.16 + 540 * 0.75, 9, '#8a93a8');
+  rr(g, E.W * 0.04 + 690, E.H * 0.16, 120, 540, 6); g.fillStyle = '#36545e'; g.fill();
+  g.strokeStyle = 'rgba(0,0,0,0.35)'; g.lineWidth = 3; g.stroke();
+  seg(g, [[E.W * 0.04 + 690 + 20, E.H * 0.16 + 40], [E.W * 0.04 + 690 + 60, E.H * 0.16 + 40]], 3, 'rgba(0,0,0,0.3)');
+  seg(g, [[E.W * 0.04 + 690 + 20, E.H * 0.16 + 54], [E.W * 0.04 + 690 + 60, E.H * 0.16 + 54]], 3, 'rgba(0,0,0,0.3)');
+  circle(g, E.W * 0.04 + 690 + 120 / 2, E.H * 0.16 + 540 * 0.75, 9, '#8a93a8');
+  rr(g, E.W * 0.60, E.H * 0.66, 380, 34, 8); g.fillStyle = '#5a4a3a'; g.fill();
+  fillRect(g, E.W * 0.60 + 10, E.H * 0.66 + 34, 16, 120, '#4a2e1e');
+  fillRect(g, E.W * 0.60 + 380 - 26, E.H * 0.66 + 34, 16, 120, '#4a2e1e');
+  dust(g, t, { count: 10, seed: 41 });
+  veil(g, '#000', 0.05);
+  return { GY, CX, M: m };
+}

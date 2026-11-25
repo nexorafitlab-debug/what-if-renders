@@ -1,0 +1,26 @@
+import { E, V, registerShot, layer, talkAmount, prog, ease, lerp, clamp, text, FONTS, slowCam, circle, seg, rr, poly, alpha, glow, ring, measure } from '/engine/core.js';
+import { drawFigure, POSES, posesAt, breathe, walkPose, walkLocked, headPos, exprAt } from '/engine/rig2d.js';
+import { CAST } from '../cast.js';
+import { bathroomMirror } from '../sets/bathroom_mirror.js';
+import { drawFeather, featherPop, featherFall, featherAnchor, featherCount } from '../_feathers.js';
+registerShot('s171', { draw(g, t, info) {
+  const rim = { color: '#ffd76a', dir: [-1, -1], w: 4 };
+  const kaiFig = { x: E.W * 0.22, y: 0, s: V(1.7, 1.8), facing: 1, outfit: CAST.KAI.outfit, pose: POSES.stand };
+  const reflFig = { x: E.W * 0.55, y: 0, s: V(1.25, 1.35), facing: -1, outfit: CAST.KAI.outfit, pose: POSES.stand };
+  layer(g, { z: 1 }, 1, (g) => {
+    const { GY } = bathroomMirror(g, t, info, {});
+    kaiFig.y = GY; reflFig.y = GY;
+    kaiFig.pose = breathe(posesAt(t, [[0, POSES.stand], [1.2, POSES.reach]]), t);
+    reflFig.pose = kaiFig.pose;
+    drawFigure(g, { ...kaiFig, expr: exprAt(t, [[0, 'smile'], [1.2, 'sad']]), talk: talkAmount(info.globalT), blink: (t % 3.7) < 0.12, look: [0.4, 0], rim });
+    drawFigure(g, { ...reflFig, expr: exprAt(t, [[0, 'smile'], [1.2, 'sad']]), talk: talkAmount(info.globalT), blink: (t % 3.7) < 0.12, look: [-0.3, 0], rim });
+  });
+  {
+    const [fx, fy] = featherAnchor(kaiFig, 'wrist');
+    featherFall(g, fx, fy, t, { at: 0.25, dur: 1.4, fall: 300, sway: 40, rot: 0.7, len: 70, color: 'white', phase: 0.0 });
+  }
+  {
+    const [fx, fy] = featherAnchor(kaiFig, 'collar');
+    featherFall(g, fx, fy, t, { at: 0.8, dur: 1.4, fall: 300, sway: 40, rot: 0.7, len: 75, color: 'white', phase: 1.3 });
+  }
+} });

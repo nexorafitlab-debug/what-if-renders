@@ -1,0 +1,30 @@
+[
+ {
+  "after_chunk": 4,
+  "kind": "rule/cold-open",
+  "gap_start": 54.38,
+  "gap_end": 57.88,
+  "ends_with": " is the rule. So what if every lie you tell grows a feather?"
+ },
+ {
+  "after_chunk": 9,
+  "kind": "mirror-beat",
+  "gap_start": 124.64,
+  "gap_end": 128.14,
+  "ends_with": " And that counts too. Five feathers now... all from one day."
+ },
+ {
+  "after_chunk": 17,
+  "kind": "coach-office/science-start",
+  "gap_start": 254.56,
+  "gap_end": 258.06,
+  "ends_with": " like a bird, man.\" \"I know,\" you say. \"I am working on it.\""
+ },
+ {
+  "after_chunk": 24,
+  "kind": "mirror-confession",
+  "gap_start": 362.14,
+  "gap_end": 365.64,
+  "ends_with": ". You feel lighter. You sleep better than you have in weeks."
+ }
+]

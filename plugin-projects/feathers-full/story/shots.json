@@ -1,0 +1,4724 @@
+{
+ "title": "What If Every Lie You Tell Grows A Feather?",
+ "duration": 408.5,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.04,
+   "line": "Monday morning.",
+   "scene": "coldopen \u2014 Monday morning.",
+   "set": "kitchen_morning",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 1.2,
+     "name": "footstep",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s002",
+   "start": 1.04,
+   "end": 2.58,
+   "line": "Your mom stands in the kitchen.",
+   "scene": "coldopen \u2014 Your mom stands in the kitchen.",
+   "set": "kitchen_night",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s003",
+   "start": 2.58,
+   "end": 5.06,
+   "line": "Did you do your homework? You did not.",
+   "scene": "coldopen \u2014 Did you do your homework? You did not.",
+   "set": "living_room",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s004",
+   "start": 5.06,
+   "end": 6.58,
+   "line": "You played games till midnight.",
+   "scene": "coldopen \u2014 You played games till midnight.",
+   "set": "hallway_home",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s005",
+   "start": 6.58,
+   "end": 8.8,
+   "line": "You say \"Yes.\" And something moves on your wrist...",
+   "scene": "coldopen \u2014 You say \"Yes.\" And something moves on your wrist...",
+   "set": "bedroom_kai",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -19
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s006",
+   "start": 8.8,
+   "end": 10.14,
+   "line": "You say \"Yes.\" And something moves on your wrist...",
+   "scene": "coldopen \u2014 You say \"Yes.\" And something moves on your wrist...",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s007",
+   "start": 10.14,
+   "end": 11.88,
+   "line": "A feather. Small.",
+   "scene": "coldopen \u2014 A feather. Small.",
+   "set": "kitchen_morning",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s008",
+   "start": 11.88,
+   "end": 13.48,
+   "line": "White. Pop.",
+   "scene": "coldopen \u2014 White. Pop.",
+   "set": "kitchen_night",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s009",
+   "start": 13.48,
+   "end": 15.82,
+   "line": "It pushes out of your skin like a sprout.",
+   "scene": "coldopen \u2014 It pushes out of your skin like a sprout.",
+   "set": "living_room",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s010",
+   "start": 15.82,
+   "end": 17.82,
+   "line": "You pull your sleeve down.",
+   "scene": "coldopen \u2014 You pull your sleeve down.",
+   "set": "hallway_home",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s011",
+   "start": 17.82,
+   "end": 19.84,
+   "line": "Fast. Your name is Kai.",
+   "scene": "coldopen \u2014 Fast. Your name is Kai.",
+   "set": "bedroom_kai",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s012",
+   "start": 19.84,
+   "end": 20.94,
+   "line": "You are sixteen.",
+   "scene": "coldopen \u2014 You are sixteen.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s013",
+   "start": 20.94,
+   "end": 23.66,
+   "line": "And every lie you tell grows a feather.",
+   "scene": "coldopen \u2014 And every lie you tell grows a feather.",
+   "set": "kitchen_morning",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -26.4
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s014",
+   "start": 23.66,
+   "end": 26.48,
+   "line": "A small lie grows a small white feather.",
+   "scene": "coldopen \u2014 A small lie grows a small white feather.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -22.3
+    }
+   ]
+  },
+  {
+   "id": "s015",
+   "start": 26.48,
+   "end": 29.12,
+   "line": "A big lie grows a big black one.",
+   "scene": "coldopen \u2014 A big lie grows a big black one.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -22.3
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s016",
+   "start": 29.12,
+   "end": 31.14,
+   "line": "It grows in one second...",
+   "scene": "coldopen \u2014 It grows in one second...",
+   "set": "kitchen_night",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -26.4
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s017",
+   "start": 31.14,
+   "end": 33.64,
+   "line": "Right where everyone can see it.",
+   "scene": "coldopen \u2014 Right where everyone can see it.",
+   "set": "living_room",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 1.2,
+     "name": "footstep",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s018",
+   "start": 33.64,
+   "end": 35.08,
+   "line": "You cannot pull it out.",
+   "scene": "coldopen \u2014 You cannot pull it out.",
+   "set": "hallway_home",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s019",
+   "start": 35.08,
+   "end": 37.28,
+   "line": "It hurts... And it grows back.",
+   "scene": "coldopen \u2014 It hurts... And it grows back.",
+   "set": "bedroom_kai",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -26.4
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s020",
+   "start": 37.28,
+   "end": 39.68,
+   "line": "Bigger. Can you stop it?",
+   "scene": "coldopen \u2014 Bigger. Can you stop it?",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s021",
+   "start": 39.68,
+   "end": 41.28,
+   "line": "The only way to lose a feather is to tell the truth.",
+   "scene": "coldopen \u2014 The only way to lose a feather is to tell the truth.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -22.3
+    }
+   ]
+  },
+  {
+   "id": "s022",
+   "start": 41.28,
+   "end": 42.46,
+   "line": "The only way to lose a feather is to tell the truth.",
+   "scene": "coldopen \u2014 The only way to lose a feather is to tell the truth.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -22.3
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s023",
+   "start": 42.46,
+   "end": 45.24,
+   "line": "Say it out loud... And the feather falls.",
+   "scene": "coldopen \u2014 Say it out loud... And the feather falls.",
+   "set": "kitchen_morning",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s024",
+   "start": 45.24,
+   "end": 46.72,
+   "line": "It floats away.",
+   "scene": "coldopen \u2014 It floats away.",
+   "set": "kitchen_night",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s025",
+   "start": 46.72,
+   "end": 49.12,
+   "line": "You cannot see anyone else's.",
+   "scene": "coldopen \u2014 You cannot see anyone else's.",
+   "set": "living_room",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s026",
+   "start": 49.12,
+   "end": 51.1,
+   "line": "Only yours. That is the rule.",
+   "scene": "coldopen \u2014 Only yours. That is the rule.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -22.3
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s027",
+   "start": 51.1,
+   "end": 53.92,
+   "line": "So what if every lie you tell grows a feather?",
+   "scene": "coldopen \u2014 So what if every lie you tell grows a feather?",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -22.3
+    }
+   ]
+  },
+  {
+   "id": "s028",
+   "start": 53.92,
+   "end": 55.95,
+   "line": "",
+   "scene": "coldopen \u2014 ",
+   "set": "hallway_home",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s029",
+   "start": 55.95,
+   "end": 57.98,
+   "line": "",
+   "scene": "coldopen \u2014 ",
+   "set": "bedroom_kai",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s030",
+   "start": 57.98,
+   "end": 59.04,
+   "line": "At school, Mr.",
+   "scene": "school \u2014 At school, Mr.",
+   "set": "school_classroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s031",
+   "start": 59.04,
+   "end": 61.02,
+   "line": "Okafor hands back the maths test.",
+   "scene": "school \u2014 Okafor hands back the maths test.",
+   "set": "classroom_history",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s032",
+   "start": 61.02,
+   "end": 63.44,
+   "line": "You got a forty. He asks.",
+   "scene": "school \u2014 You got a forty. He asks.",
+   "set": "classroom_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s033",
+   "start": 63.44,
+   "end": 66.12,
+   "line": "Did you study? \"Yes.",
+   "scene": "school \u2014 Did you study? \"Yes.",
+   "set": "library",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s034",
+   "start": 66.12,
+   "end": 68.16,
+   "line": "All weekend.\" A white feather pops out of your collar...",
+   "scene": "school \u2014 All weekend.\" A white feather pops out of your collar...",
+   "set": "school_classroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -19
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s035",
+   "start": 68.16,
+   "end": 69.62,
+   "line": "All weekend.\" A white feather pops out of your collar...",
+   "scene": "school \u2014 All weekend.\" A white feather pops out of your collar...",
+   "set": "classroom_history",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s036",
+   "start": 69.62,
+   "end": 72.58,
+   "line": "Can you feel it? You tug your hood up.",
+   "scene": "school \u2014 Can you feel it? You tug your hood up.",
+   "set": "classroom_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s037",
+   "start": 72.58,
+   "end": 74.78,
+   "line": "At lunch, Danny, your best friend since you were six, asks.",
+   "scene": "lunch \u2014 At lunch, Danny, your best friend since you were six, asks.",
+   "set": "cafeteria",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s038",
+   "start": 74.78,
+   "end": 76.38,
+   "line": "At lunch, Danny, your best friend since you were six, asks.",
+   "scene": "lunch \u2014 At lunch, Danny, your best friend since you were six, asks.",
+   "set": "cafeteria_queue",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s039",
+   "start": 76.38,
+   "end": 79.0,
+   "line": "Do you like Maya? You do.",
+   "scene": "lunch \u2014 Do you like Maya? You do.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s040",
+   "start": 79.0,
+   "end": 80.78,
+   "line": "You have liked her for a year.",
+   "scene": "lunch \u2014 You have liked her for a year.",
+   "set": "cafeteria",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s041",
+   "start": 80.78,
+   "end": 82.04,
+   "line": "\"No.",
+   "scene": "lunch \u2014 \"No.",
+   "set": "cafeteria_queue",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s042",
+   "start": 82.04,
+   "end": 84.0,
+   "line": "She is just a friend.\" A feather grows on your hand.",
+   "scene": "lunch \u2014 She is just a friend.\" A feather grows on your hand.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -19
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s043",
+   "start": 84.0,
+   "end": 85.34,
+   "line": "She is just a friend.\" A feather grows on your hand.",
+   "scene": "lunch \u2014 She is just a friend.\" A feather grows on your hand.",
+   "set": "cafeteria",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -26.4
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s044",
+   "start": 85.34,
+   "end": 86.86,
+   "line": "You hide it under the table...",
+   "scene": "lunch \u2014 You hide it under the table...",
+   "set": "cafeteria_queue",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s045",
+   "start": 86.86,
+   "end": 89.68,
+   "line": "Maya sits down. Nice hoodie, Kai.",
+   "scene": "lunch \u2014 Maya sits down. Nice hoodie, Kai.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s046",
+   "start": 89.68,
+   "end": 90.76,
+   "line": "\"Thanks.",
+   "scene": "lunch \u2014 \"Thanks.",
+   "set": "cafeteria",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s047",
+   "start": 90.76,
+   "end": 93.28,
+   "line": "It was cheap.\" It was not cheap.",
+   "scene": "lunch \u2014 It was cheap.\" It was not cheap.",
+   "set": "cafeteria_queue",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -19
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s048",
+   "start": 93.28,
+   "end": 95.12,
+   "line": "Your mom saved for a month.",
+   "scene": "lunch \u2014 Your mom saved for a month.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s049",
+   "start": 95.12,
+   "end": 97.1,
+   "line": "A feather grows on your neck.",
+   "scene": "lunch \u2014 A feather grows on your neck.",
+   "set": "cafeteria",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -26.4
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s050",
+   "start": 97.1,
+   "end": 99.66,
+   "line": "By the end of lunch, you count them...",
+   "scene": "lunch \u2014 By the end of lunch, you count them...",
+   "set": "cafeteria_queue",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s051",
+   "start": 99.66,
+   "end": 101.96,
+   "line": "Four. Four white feathers.",
+   "scene": "lunch \u2014 Four. Four white feathers.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -29.9
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s052",
+   "start": 101.96,
+   "end": 104.44,
+   "line": "Can you count them? Wrist.",
+   "scene": "lunch \u2014 Can you count them? Wrist.",
+   "set": "cafeteria",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s053",
+   "start": 104.44,
+   "end": 106.6,
+   "line": "Collar. Hand. Neck.",
+   "scene": "lunch \u2014 Collar. Hand. Neck.",
+   "set": "cafeteria_queue",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s054",
+   "start": 106.6,
+   "end": 109.2,
+   "line": "That night, you stand in front of the mirror.",
+   "scene": "mirror1 \u2014 That night, you stand in front of the mirror.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s055",
+   "start": 109.2,
+   "end": 110.38,
+   "line": "You count again...",
+   "scene": "mirror1 \u2014 You count again...",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s056",
+   "start": 110.38,
+   "end": 113.08,
+   "line": "Four. You whisper to yourself.",
+   "scene": "mirror1 \u2014 Four. You whisper to yourself.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -29.9
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s057",
+   "start": 113.08,
+   "end": 115.22,
+   "line": "\"I am fine.\" You are not fine.",
+   "scene": "mirror1 \u2014 \"I am fine.\" You are not fine.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -19
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s058",
+   "start": 115.22,
+   "end": 116.16,
+   "line": "\"I am fine.\" You are not fine.",
+   "scene": "mirror1 \u2014 \"I am fine.\" You are not fine.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s059",
+   "start": 116.16,
+   "end": 118.58,
+   "line": "A feather grows on your chest...",
+   "scene": "mirror1 \u2014 A feather grows on your chest...",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -26.4
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s060",
+   "start": 118.58,
+   "end": 121.22,
+   "line": "Right over your heart. And that counts too.",
+   "scene": "mirror1 \u2014 Right over your heart. And that counts too.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s061",
+   "start": 121.22,
+   "end": 124.3,
+   "line": "Five feathers now... all from one day.",
+   "scene": "mirror1 \u2014 Five feathers now... all from one day.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -29.9
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s062",
+   "start": 124.3,
+   "end": 126.17,
+   "line": "",
+   "scene": "mirror1 \u2014 ",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s063",
+   "start": 126.17,
+   "end": 128.04,
+   "line": "",
+   "scene": "mirror1 \u2014 ",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s064",
+   "start": 128.04,
+   "end": 129.72,
+   "line": "The next day, you try something new.",
+   "scene": "nolies \u2014 The next day, you try something new.",
+   "set": "kitchen_morning",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s065",
+   "start": 129.72,
+   "end": 131.9,
+   "line": "No lies. Not one.",
+   "scene": "nolies \u2014 No lies. Not one.",
+   "set": "school_classroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s066",
+   "start": 131.9,
+   "end": 134.02,
+   "line": "Your mom asks. Are you hungry?",
+   "scene": "nolies \u2014 Your mom asks. Are you hungry?",
+   "set": "hallway_lockers_b",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s067",
+   "start": 134.02,
+   "end": 136.74,
+   "line": "You say yes. No feather.",
+   "scene": "nolies \u2014 You say yes. No feather.",
+   "set": "library",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s068",
+   "start": 136.74,
+   "end": 139.24,
+   "line": "Your teacher asks. Do you understand?",
+   "scene": "nolies \u2014 Your teacher asks. Do you understand?",
+   "set": "kitchen_morning",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s069",
+   "start": 139.24,
+   "end": 141.74,
+   "line": "You do not. You say no.",
+   "scene": "nolies \u2014 You do not. You say no.",
+   "set": "school_classroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s070",
+   "start": 141.74,
+   "end": 144.18,
+   "line": "No feather. Danny asks.",
+   "scene": "nolies \u2014 No feather. Danny asks.",
+   "set": "hallway_lockers_b",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s071",
+   "start": 144.18,
+   "end": 146.68,
+   "line": "Are you mad at me? You are.",
+   "scene": "nolies \u2014 Are you mad at me? You are.",
+   "set": "library",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s072",
+   "start": 146.68,
+   "end": 149.34,
+   "line": "You say yes. He says sorry.",
+   "scene": "nolies \u2014 You say yes. He says sorry.",
+   "set": "kitchen_morning",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s073",
+   "start": 149.34,
+   "end": 152.2,
+   "line": "No feather. One whole morning.",
+   "scene": "nolies \u2014 No feather. One whole morning.",
+   "set": "school_classroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s074",
+   "start": 152.2,
+   "end": 154.92,
+   "line": "Not one new feather. You feel light.",
+   "scene": "nolies \u2014 Not one new feather. You feel light.",
+   "set": "hallway_lockers_b",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s075",
+   "start": 154.92,
+   "end": 157.14,
+   "line": "Lighter than you have in days.",
+   "scene": "nolies \u2014 Lighter than you have in days.",
+   "set": "library",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s076",
+   "start": 157.14,
+   "end": 160.48,
+   "line": "Then the bell rings... And it all falls apart.",
+   "scene": "crisis \u2014 Then the bell rings... And it all falls apart.",
+   "set": "schoolyard",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s077",
+   "start": 160.48,
+   "end": 162.66,
+   "line": "Danny broke the coach's window.",
+   "scene": "crisis \u2014 Danny broke the coach's window.",
+   "set": "school_gate",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s078",
+   "start": 162.66,
+   "end": 164.86,
+   "line": "A football. Straight through the glass.",
+   "scene": "crisis \u2014 A football. Straight through the glass.",
+   "set": "gym",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s079",
+   "start": 164.86,
+   "end": 167.64,
+   "line": "The coach is shouting. Who did this?",
+   "scene": "crisis \u2014 The coach is shouting. Who did this?",
+   "set": "office_coach",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s080",
+   "start": 167.64,
+   "end": 170.9,
+   "line": "Everyone looks at Danny. Danny looks at you.",
+   "scene": "crisis \u2014 Everyone looks at Danny. Danny looks at you.",
+   "set": "office_wait",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s081",
+   "start": 170.9,
+   "end": 174.18,
+   "line": "You know what he wants. You open your mouth.",
+   "scene": "crisis \u2014 You know what he wants. You open your mouth.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s082",
+   "start": 174.18,
+   "end": 176.46,
+   "line": "\"It was me.\" It was not you.",
+   "scene": "crisis \u2014 \"It was me.\" It was not you.",
+   "set": "stairwell",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "freeze",
+     "gain": -28.1
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s083",
+   "start": 176.46,
+   "end": 178.82,
+   "line": "It was him. And a feather grows.",
+   "scene": "crisis \u2014 It was him. And a feather grows.",
+   "set": "schoolyard",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -26.4
+    }
+   ]
+  },
+  {
+   "id": "s084",
+   "start": 178.82,
+   "end": 180.96,
+   "line": "Not white. Black.",
+   "scene": "crisis \u2014 Not white. Black.",
+   "set": "school_gate",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s085",
+   "start": 180.96,
+   "end": 183.88,
+   "line": "Huge. It bursts out of your shoulder...",
+   "scene": "crisis \u2014 Huge. It bursts out of your shoulder...",
+   "set": "gym",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s086",
+   "start": 183.88,
+   "end": 185.78,
+   "line": "It is as long as your hand.",
+   "scene": "crisis \u2014 It is as long as your hand.",
+   "set": "office_coach",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s087",
+   "start": 185.78,
+   "end": 187.44,
+   "line": "Everyone sees it.",
+   "scene": "crisis \u2014 Everyone sees it.",
+   "set": "office_wait",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s088",
+   "start": 187.44,
+   "end": 189.8,
+   "line": "The coach stares. Kai.",
+   "scene": "crisis \u2014 The coach stares. Kai.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s089",
+   "start": 189.8,
+   "end": 191.76,
+   "line": "My office. Now.",
+   "scene": "crisis \u2014 My office. Now.",
+   "set": "stairwell",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s090",
+   "start": 191.76,
+   "end": 193.28,
+   "line": "You sit in his office.",
+   "scene": "crisis \u2014 You sit in his office.",
+   "set": "schoolyard",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s091",
+   "start": 193.28,
+   "end": 195.42,
+   "line": "The black feather hangs over your shirt.",
+   "scene": "crisis \u2014 The black feather hangs over your shirt.",
+   "set": "school_gate",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s092",
+   "start": 195.42,
+   "end": 196.96,
+   "line": "The coach asks again.",
+   "scene": "crisis \u2014 The coach asks again.",
+   "set": "gym",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s093",
+   "start": 196.96,
+   "end": 198.52,
+   "line": "Did you really break it?",
+   "scene": "crisis \u2014 Did you really break it?",
+   "set": "office_coach",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s094",
+   "start": 198.52,
+   "end": 200.68,
+   "line": "You look at Danny, waiting outside.",
+   "scene": "crisis \u2014 You look at Danny, waiting outside.",
+   "set": "office_wait",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s095",
+   "start": 200.68,
+   "end": 203.48,
+   "line": "If you tell the truth, Danny gets suspended.",
+   "scene": "crisis \u2014 If you tell the truth, Danny gets suspended.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s096",
+   "start": 203.48,
+   "end": 205.4,
+   "line": "He misses the final.",
+   "scene": "crisis \u2014 He misses the final.",
+   "set": "stairwell",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s097",
+   "start": 205.4,
+   "end": 207.6,
+   "line": "If you keep lying, the feather stays.",
+   "scene": "crisis \u2014 If you keep lying, the feather stays.",
+   "set": "schoolyard",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s098",
+   "start": 207.6,
+   "end": 209.06,
+   "line": "And more will come.",
+   "scene": "crisis \u2014 And more will come.",
+   "set": "school_gate",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s099",
+   "start": 209.06,
+   "end": 211.1,
+   "line": "Because one lie always needs another lie to hold it up.",
+   "scene": "crisis \u2014 Because one lie always needs another lie to hold it up.",
+   "set": "gym",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s100",
+   "start": 211.1,
+   "end": 212.44,
+   "line": "Because one lie always needs another lie to hold it up.",
+   "scene": "crisis \u2014 Because one lie always needs another lie to hold it up.",
+   "set": "office_coach",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s101",
+   "start": 212.44,
+   "end": 214.78,
+   "line": "You take a breath... \"No.",
+   "scene": "crisis \u2014 You take a breath... \"No.",
+   "set": "office_wait",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s102",
+   "start": 214.78,
+   "end": 215.64,
+   "line": "It was Danny.",
+   "scene": "crisis \u2014 It was Danny.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s103",
+   "start": 215.64,
+   "end": 216.9,
+   "line": "I lied to protect him.\" And the feather falls.",
+   "scene": "crisis \u2014 I lied to protect him.\" And the feather falls.",
+   "set": "stairwell",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s104",
+   "start": 216.9,
+   "end": 218.5,
+   "line": "I lied to protect him.\" And the feather falls.",
+   "scene": "crisis \u2014 I lied to protect him.\" And the feather falls.",
+   "set": "schoolyard",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s105",
+   "start": 218.5,
+   "end": 220.32,
+   "line": "It turns white.",
+   "scene": "crisis \u2014 It turns white.",
+   "set": "school_gate",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s106",
+   "start": 220.32,
+   "end": 221.62,
+   "line": "Then it floats away...",
+   "scene": "crisis \u2014 Then it floats away...",
+   "set": "gym",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s107",
+   "start": 221.62,
+   "end": 223.86,
+   "line": "Out the window. Like snow.",
+   "scene": "crisis \u2014 Out the window. Like snow.",
+   "set": "office_coach",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s108",
+   "start": 223.86,
+   "end": 225.44,
+   "line": "The coach nods.",
+   "scene": "crisis \u2014 The coach nods.",
+   "set": "office_wait",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s109",
+   "start": 225.44,
+   "end": 227.38,
+   "line": "Thank you for telling the truth, Kai.",
+   "scene": "crisis \u2014 Thank you for telling the truth, Kai.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s110",
+   "start": 227.38,
+   "end": 229.88,
+   "line": "Danny gets two weeks of cleaning the gym.",
+   "scene": "crisis \u2014 Danny gets two weeks of cleaning the gym.",
+   "set": "stairwell",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s111",
+   "start": 229.88,
+   "end": 232.18,
+   "line": "Not suspended. Just cleaning.",
+   "scene": "crisis \u2014 Not suspended. Just cleaning.",
+   "set": "schoolyard",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s112",
+   "start": 232.18,
+   "end": 234.76,
+   "line": "Was it worth it? You walk out.",
+   "scene": "crisis \u2014 Was it worth it? You walk out.",
+   "set": "school_gate",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 1.2,
+     "name": "footstep",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s113",
+   "start": 234.76,
+   "end": 237.84,
+   "line": "Danny is waiting. He looks at your shoulder.",
+   "scene": "crisis \u2014 Danny is waiting. He looks at your shoulder.",
+   "set": "gym",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s114",
+   "start": 237.84,
+   "end": 239.18,
+   "line": "The feather is gone.",
+   "scene": "crisis \u2014 The feather is gone.",
+   "set": "office_coach",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s115",
+   "start": 239.18,
+   "end": 241.94,
+   "line": "\"You told him?\" You nod.",
+   "scene": "crisis \u2014 \"You told him?\" You nod.",
+   "set": "office_wait",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s116",
+   "start": 241.94,
+   "end": 244.92,
+   "line": "\"I thought you would keep lying for me.\" \"I did lie for you,\" you say.",
+   "scene": "crisis \u2014 \"I thought you would keep lying for me.\" \"I did lie for you,\" you say.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s117",
+   "start": 244.92,
+   "end": 246.5,
+   "line": "\"I thought you would keep lying for me.\" \"I did lie for you,\" you say.",
+   "scene": "crisis \u2014 \"I thought you would keep lying for me.\" \"I did lie for you,\" you say.",
+   "set": "stairwell",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s118",
+   "start": 246.5,
+   "end": 247.48,
+   "line": "\"Look what it grew.\" He laughs.",
+   "scene": "crisis \u2014 \"Look what it grew.\" He laughs.",
+   "set": "schoolyard",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s119",
+   "start": 247.48,
+   "end": 249.12,
+   "line": "\"Look what it grew.\" He laughs.",
+   "scene": "crisis \u2014 \"Look what it grew.\" He laughs.",
+   "set": "school_gate",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s120",
+   "start": 249.12,
+   "end": 251.86,
+   "line": "\"You look like a bird, man.\" \"I know,\" you say.",
+   "scene": "crisis \u2014 \"You look like a bird, man.\" \"I know,\" you say.",
+   "set": "gym",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s121",
+   "start": 251.86,
+   "end": 252.66,
+   "line": "\"You look like a bird, man.\" \"I know,\" you say.",
+   "scene": "crisis \u2014 \"You look like a bird, man.\" \"I know,\" you say.",
+   "set": "office_coach",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s122",
+   "start": 252.66,
+   "end": 254.56,
+   "line": "\"I am working on it.\" Is any of this real?",
+   "scene": "science \u2014 \"I am working on it.\" Is any of this real?",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s123",
+   "start": 254.56,
+   "end": 258.06,
+   "line": "",
+   "scene": "science \u2014 ",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s124",
+   "start": 258.06,
+   "end": 259.08,
+   "line": "\"I am working on it.\" Is any of this real?",
+   "scene": "science \u2014 \"I am working on it.\" Is any of this real?",
+   "set": "classroom_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s125",
+   "start": 259.08,
+   "end": 262.24,
+   "line": "The feathers are fiction. The lying is not.",
+   "scene": "science \u2014 The feathers are fiction. The lying is not.",
+   "set": "library",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s126",
+   "start": 262.24,
+   "end": 264.24,
+   "line": "Psychologist Bella DePaulo studied lying for years.",
+   "scene": "science \u2014 Psychologist Bella DePaulo studied lying for years.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s127",
+   "start": 264.24,
+   "end": 265.54,
+   "line": "Psychologist Bella DePaulo studied lying for years.",
+   "scene": "science \u2014 Psychologist Bella DePaulo studied lying for years.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s128",
+   "start": 265.54,
+   "end": 267.28,
+   "line": "She found that most people tell one or two lies a day.",
+   "scene": "science \u2014 She found that most people tell one or two lies a day.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s129",
+   "start": 267.28,
+   "end": 268.56,
+   "line": "She found that most people tell one or two lies a day.",
+   "scene": "science \u2014 She found that most people tell one or two lies a day.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s130",
+   "start": 268.56,
+   "end": 270.1,
+   "line": "Small ones.",
+   "scene": "science \u2014 Small ones.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s131",
+   "start": 270.1,
+   "end": 273.3,
+   "line": "\"I am fine.\" \"I am on my way.\" We lie so often, we stop noticing.",
+   "scene": "science \u2014 \"I am fine.\" \"I am on my way.\" We lie so often, we stop noticing.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s132",
+   "start": 273.3,
+   "end": 275.14,
+   "line": "\"I am fine.\" \"I am on my way.\" We lie so often, we stop noticing.",
+   "scene": "science \u2014 \"I am fine.\" \"I am on my way.\" We lie so often, we stop noticing.",
+   "set": "classroom_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s133",
+   "start": 275.14,
+   "end": 276.98,
+   "line": "Does that sound like your day?",
+   "scene": "science \u2014 Does that sound like your day?",
+   "set": "library",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s134",
+   "start": 276.98,
+   "end": 279.42,
+   "line": "And lying is hard work for your brain.",
+   "scene": "science \u2014 And lying is hard work for your brain.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s135",
+   "start": 279.42,
+   "end": 281.14,
+   "line": "A true answer is simple.",
+   "scene": "science \u2014 A true answer is simple.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s136",
+   "start": 281.14,
+   "end": 284.12,
+   "line": "You just remember it. A lie needs building.",
+   "scene": "science \u2014 You just remember it. A lie needs building.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s137",
+   "start": 284.12,
+   "end": 286.12,
+   "line": "You have to invent it.",
+   "scene": "science \u2014 You have to invent it.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s138",
+   "start": 286.12,
+   "end": 288.8,
+   "line": "Remember it. And keep it from crashing into the truth.",
+   "scene": "science \u2014 Remember it. And keep it from crashing into the truth.",
+   "set": "classroom_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s139",
+   "start": 288.8,
+   "end": 290.88,
+   "line": "Your brain lights up more when you lie than when you tell the truth.",
+   "scene": "science \u2014 Your brain lights up more when you lie than when you tell the truth.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s140",
+   "start": 290.88,
+   "end": 292.26,
+   "line": "Your brain lights up more when you lie than when you tell the truth.",
+   "scene": "science \u2014 Your brain lights up more when you lie than when you tell the truth.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s141",
+   "start": 292.26,
+   "end": 294.12,
+   "line": "And your body gives you away too.",
+   "scene": "science \u2014 And your body gives you away too.",
+   "set": "library",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s142",
+   "start": 294.12,
+   "end": 296.12,
+   "line": "In Spain, researchers found the Pinocchio effect.",
+   "scene": "science \u2014 In Spain, researchers found the Pinocchio effect.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s143",
+   "start": 296.12,
+   "end": 297.5,
+   "line": "In Spain, researchers found the Pinocchio effect.",
+   "scene": "science \u2014 In Spain, researchers found the Pinocchio effect.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s144",
+   "start": 297.5,
+   "end": 299.6,
+   "line": "When people lie, the temperature of their nose drops...",
+   "scene": "science \u2014 When people lie, the temperature of their nose drops...",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s145",
+   "start": 299.6,
+   "end": 300.98,
+   "line": "When people lie, the temperature of their nose drops...",
+   "scene": "science \u2014 When people lie, the temperature of their nose drops...",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s146",
+   "start": 300.98,
+   "end": 303.66,
+   "line": "Just a little. Your nose gets colder.",
+   "scene": "science \u2014 Just a little. Your nose gets colder.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s147",
+   "start": 303.66,
+   "end": 306.0,
+   "line": "Like Pinocchio. Only real.",
+   "scene": "science \u2014 Like Pinocchio. Only real.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s148",
+   "start": 306.0,
+   "end": 308.12,
+   "line": "Lying raises your stress.",
+   "scene": "science \u2014 Lying raises your stress.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s149",
+   "start": 308.12,
+   "end": 309.78,
+   "line": "Your heart beats faster.",
+   "scene": "science \u2014 Your heart beats faster.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s150",
+   "start": 309.78,
+   "end": 311.04,
+   "line": "Your hands sweat.",
+   "scene": "science \u2014 Your hands sweat.",
+   "set": "classroom_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s151",
+   "start": 311.04,
+   "end": 312.78,
+   "line": "That is why lie detectors do not detect lies.",
+   "scene": "science \u2014 That is why lie detectors do not detect lies.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s152",
+   "start": 312.78,
+   "end": 314.0,
+   "line": "That is why lie detectors do not detect lies.",
+   "scene": "science \u2014 That is why lie detectors do not detect lies.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s153",
+   "start": 314.0,
+   "end": 315.5,
+   "line": "They detect stress.",
+   "scene": "science \u2014 They detect stress.",
+   "set": "library",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s154",
+   "start": 315.5,
+   "end": 318.78,
+   "line": "Every lie you tell is weight you carry.",
+   "scene": "science \u2014 Every lie you tell is weight you carry.",
+   "set": "void_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s155",
+   "start": 318.78,
+   "end": 320.82,
+   "line": "You just cannot see it...",
+   "scene": "science \u2014 You just cannot see it...",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s156",
+   "start": 320.82,
+   "end": 323.32,
+   "line": "Unless you are Kai. Then you can.",
+   "scene": "science \u2014 Unless you are Kai. Then you can.",
+   "set": "classroom_science",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "murmur",
+    "gain": -38
+   }
+  },
+  {
+   "id": "s157",
+   "start": 323.32,
+   "end": 326.28,
+   "line": "That night, you stand in the mirror again.",
+   "scene": "mirror2 \u2014 That night, you stand in the mirror again.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s158",
+   "start": 326.28,
+   "end": 328.46,
+   "line": "Five white feathers are left.",
+   "scene": "mirror2 \u2014 Five white feathers are left.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s159",
+   "start": 328.46,
+   "end": 330.78,
+   "line": "All small. All from yesterday.",
+   "scene": "mirror2 \u2014 All small. All from yesterday.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s160",
+   "start": 330.78,
+   "end": 332.64,
+   "line": "You say them out loud.",
+   "scene": "mirror2 \u2014 You say them out loud.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s161",
+   "start": 332.64,
+   "end": 335.44,
+   "line": "One by one. The true version.",
+   "scene": "mirror2 \u2014 One by one. The true version.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s162",
+   "start": 335.44,
+   "end": 337.02,
+   "line": "\"I am not fine.",
+   "scene": "mirror2 \u2014 \"I am not fine.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s163",
+   "start": 337.02,
+   "end": 339.5,
+   "line": "I am scared.\" The feather falls.",
+   "scene": "mirror2 \u2014 I am scared.\" The feather falls.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s164",
+   "start": 339.5,
+   "end": 341.06,
+   "line": "\"It was not cheap.",
+   "scene": "mirror2 \u2014 \"It was not cheap.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s165",
+   "start": 341.06,
+   "end": 342.54,
+   "line": "My mom saved for it.\" The feather falls.",
+   "scene": "mirror2 \u2014 My mom saved for it.\" The feather falls.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s166",
+   "start": 342.54,
+   "end": 343.9,
+   "line": "My mom saved for it.\" The feather falls.",
+   "scene": "mirror2 \u2014 My mom saved for it.\" The feather falls.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s167",
+   "start": 343.9,
+   "end": 345.34,
+   "line": "\"I like Maya.",
+   "scene": "mirror2 \u2014 \"I like Maya.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s168",
+   "start": 345.34,
+   "end": 346.86,
+   "line": "I have liked her for a year.\" The feather falls.",
+   "scene": "mirror2 \u2014 I have liked her for a year.\" The feather falls.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s169",
+   "start": 346.86,
+   "end": 348.16,
+   "line": "I have liked her for a year.\" The feather falls.",
+   "scene": "mirror2 \u2014 I have liked her for a year.\" The feather falls.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s170",
+   "start": 348.16,
+   "end": 349.7,
+   "line": "\"I did not study.",
+   "scene": "mirror2 \u2014 \"I did not study.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s171",
+   "start": 349.7,
+   "end": 352.78,
+   "line": "I played games.\" Two feathers fall.",
+   "scene": "mirror2 \u2014 I played games.\" Two feathers fall.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s172",
+   "start": 352.78,
+   "end": 354.88,
+   "line": "Wrist and collar. Five feathers.",
+   "scene": "mirror2 \u2014 Wrist and collar. Five feathers.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s173",
+   "start": 354.88,
+   "end": 357.44,
+   "line": "Floating to the floor... Then out the window.",
+   "scene": "mirror2 \u2014 Floating to the floor... Then out the window.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s174",
+   "start": 357.44,
+   "end": 359.6,
+   "line": "Like snow. You feel lighter.",
+   "scene": "mirror2 \u2014 Like snow. You feel lighter.",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s175",
+   "start": 359.6,
+   "end": 361.58,
+   "line": "You sleep better than you have in weeks.",
+   "scene": "mirror2 \u2014 You sleep better than you have in weeks.",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s176",
+   "start": 361.58,
+   "end": 363.47,
+   "line": "",
+   "scene": "mirror2 \u2014 ",
+   "set": "bathroom_day",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s177",
+   "start": 363.47,
+   "end": 365.36,
+   "line": "",
+   "scene": "mirror2 \u2014 ",
+   "set": "bathroom_mirror",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s178",
+   "start": 365.36,
+   "end": 366.54,
+   "line": "The next morning, you tell Maya the truth.",
+   "scene": "ending \u2014 The next morning, you tell Maya the truth.",
+   "set": "hallway_lockers_b",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 1.2,
+     "name": "footstep",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s179",
+   "start": 366.54,
+   "end": 367.6,
+   "line": "The next morning, you tell Maya the truth.",
+   "scene": "ending \u2014 The next morning, you tell Maya the truth.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 1.2,
+     "name": "footstep",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s180",
+   "start": 367.6,
+   "end": 370.56,
+   "line": "At her locker. In front of everyone.",
+   "scene": "ending \u2014 At her locker. In front of everyone.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s181",
+   "start": 370.56,
+   "end": 373.6,
+   "line": "\"I like you. I have liked you for a year.",
+   "scene": "ending \u2014 \"I like you. I have liked you for a year.",
+   "set": "hallway_lockers_b",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s182",
+   "start": 373.6,
+   "end": 375.54,
+   "line": "I lied yesterday because I was scared.\" She stares at you.",
+   "scene": "ending \u2014 I lied yesterday because I was scared.\" She stares at you.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s183",
+   "start": 375.54,
+   "end": 377.84,
+   "line": "I lied yesterday because I was scared.\" She stares at you.",
+   "scene": "ending \u2014 I lied yesterday because I was scared.\" She stares at you.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s184",
+   "start": 377.84,
+   "end": 381.3,
+   "line": "Then she smiles... \"I know,\" she says.",
+   "scene": "ending \u2014 Then she smiles... \"I know,\" she says.",
+   "set": "hallway_lockers_b",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s185",
+   "start": 381.3,
+   "end": 382.98,
+   "line": "\"You had a feather on your hand.\" You laugh.",
+   "scene": "ending \u2014 \"You had a feather on your hand.\" You laugh.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s186",
+   "start": 382.98,
+   "end": 384.72,
+   "line": "\"You had a feather on your hand.\" You laugh.",
+   "scene": "ending \u2014 \"You had a feather on your hand.\" You laugh.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ]
+  },
+  {
+   "id": "s187",
+   "start": 384.72,
+   "end": 387.68,
+   "line": "She laughs. And no feather grows.",
+   "scene": "ending \u2014 She laughs. And no feather grows.",
+   "set": "hallway_lockers_b",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -26.4
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s188",
+   "start": 387.68,
+   "end": 390.26,
+   "line": "Because this time, it is true.",
+   "scene": "ending \u2014 Because this time, it is true.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s189",
+   "start": 390.26,
+   "end": 392.14,
+   "line": "So what would you do?",
+   "scene": "ending \u2014 So what would you do?",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s190",
+   "start": 392.14,
+   "end": 394.52,
+   "line": "If every lie grew a feather, how many would you be wearing right now?",
+   "scene": "ending \u2014 If every lie grew a feather, how many would you be wearing right now?",
+   "set": "hallway_lockers_b",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s191",
+   "start": 394.52,
+   "end": 396.22,
+   "line": "If every lie grew a feather, how many would you be wearing right now?",
+   "scene": "ending \u2014 If every lie grew a feather, how many would you be wearing right now?",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s192",
+   "start": 396.22,
+   "end": 397.88,
+   "line": "One. Ten.",
+   "scene": "ending \u2014 One. Ten.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "s193",
+   "start": 397.88,
+   "end": 401.34,
+   "line": "A hundred. And which lie would you take back first?",
+   "scene": "ending \u2014 A hundred. And which lie would you take back first?",
+   "set": "hallway_lockers_b",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s194",
+   "start": 401.34,
+   "end": 404.6,
+   "line": "Tell us in the comments. And if this one hit you...",
+   "scene": "ending \u2014 Tell us in the comments. And if this one hit you...",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -22.3
+    }
+   ]
+  },
+  {
+   "id": "s195",
+   "start": 404.6,
+   "end": 406.16,
+   "line": "hit like, and subscribe for more What Ifs.",
+   "scene": "ending \u2014 hit like, and subscribe for more What Ifs.",
+   "set": "school_hallway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -20
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -17.7
+    }
+   ],
+   "amb": {
+    "name": "roomtone",
+    "gain": -36
+   }
+  },
+  {
+   "id": "s196",
+   "start": 406.16,
+   "end": 408.5,
+   "line": "hit like, and subscribe for more What Ifs.",
+   "scene": "ending \u2014 hit like, and subscribe for more What Ifs.",
+   "set": "void",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -22.3
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 57.98,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 57.98,
+   "end": 73.2,
+   "mood": "tension",
+   "intensity": 0.55
+  },
+  {
+   "start": 73.2,
+   "end": 107.48,
+   "mood": "tension",
+   "intensity": 0.55
+  },
+  {
+   "start": 107.48,
+   "end": 128.04,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 128.04,
+   "end": 158.0,
+   "mood": "wonder",
+   "intensity": 0.5
+  },
+  {
+   "start": 158.0,
+   "end": 253.26,
+   "mood": "tension",
+   "intensity": 0.55
+  },
+  {
+   "start": 253.26,
+   "end": 324.32,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 324.32,
+   "end": 365.36,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 365.36,
+   "end": 408.5,
+   "mood": "wonder",
+   "intensity": 0.5
+  }
+ ]
+}
