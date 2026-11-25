@@ -10,9 +10,9 @@ registerShot('s016', { draw(g, t, info) {
     const { GY } = kitchenMorning(g, t, info, {});
     kaiFig.y = GY;
     kaiFig.pose = breathe(posesAt(t, [[0, POSES.stand]]), t);
-    // "It grows in one second..." — a feather POPS out of his collar, fast
+    // "It grows in one second..." — a feather POPS out of his wrist, fast
     drawFigure(g, { ...kaiFig, expr: exprAt(t, [[0, 'neutral'], [0.6, 'surprised']]), talk: talkAmount(info.globalT), blink: (t % 3.7) < 0.12, look: [0, -0.2], rim });
   });
-  featherPop(g, kaiFig, 'collar', t, { at: 0.2, len: 78, color: 'white', rot: -1.0 });
+  featherPop(g, kaiFig, 'wrist', t, { at: 0.2, len: 78, color: 'white', rot: -1.0 });
   text(g, 'IN ONE SECOND', E.W / 2, E.H * 0.16, { size: V(44, 48), color: '#ffd76a', font: FONTS.ui, weight: 900, spacing: 4, glow: 18, glowColor: 'rgba(255,215,106,0.55)', alpha: clamp(prog(t, 0.3, 0.6)) });
 } });
