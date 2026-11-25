@@ -33,8 +33,13 @@ name: Render plugin episode
 # chunks total ~1 GB per video. Cache keys are per-run and expire; nothing long-lived.
 #
 # FINAL VIDEO VIA GITHUB RELEASE, not an artifact: the stitch job creates a Release
-# (tag <project>-<run_number>) and uploads final.mp4 as a release asset with the gh CLI.
-# No final-video artifact is uploaded anywhere. Download the video from the Release.
+# (tag <project>-<run_number>) and uploads final.mp4 as a release asset via the REST
+# API (node fetch) from the stitch job itself. No final-video artifact is uploaded
+# anywhere. Download the video from the Release.
+# NOTE (2026-11-25): the Release used to be a separate host job fed by an Actions-cache
+# hop (final-<run_id>), but that restore failed twice ("Cache not found" even though
+# the entry existed in the cache list), so the Release is now published where the
+# file already lives. Do not reintroduce the cache hop for the final video.
 #
 # How it stays identical:
 #  - Frames are drawn by the same plugin engine, in a pre-built Docker image
@@ -188,27 +193,40 @@ jobs:
             --work "$GITHUB_WORKSPACE/build" \
             --out "$GITHUB_WORKSPACE/build/final.mp4"
       # Final video goes out as a GitHub Release asset, NOT an artifact.
-      # The Release step runs in a separate host job (below) because `gh` is not
-      # guaranteed inside the render container; the final mp4 travels there via cache.
-      - uses: actions/cache@v4
-        with:
-          path: ${{ github.workspace }}/build/final.mp4
-          key: final-${{ github.run_id }}
-
-  release:
-    needs: stitch
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/cache/restore@v4
-        with:
-          path: ${{ github.workspace }}/build/final.mp4
-          key: final-${{ github.run_id }}
+      # Published from THIS job via the REST API (node fetch) — no `gh` CLI needed
+      # and no cache hop (see header note: the cache hop failed twice).
       - name: Publish final video as a Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROJECT: ${{ inputs.project }}
+          RUN_NUMBER: ${{ github.run_number }}
+          CHUNKS: ${{ inputs.chunks }}
+          FPS: ${{ inputs.fps }}
+          RANGES: ${{ inputs.encode_ranges }}
         run: |
-          ls -lh "$GITHUB_WORKSPACE/build/final.mp4"
-          gh release create "${{ inputs.project }}-${{ github.run_number }}" \
-            --title "${{ inputs.project }} run ${{ github.run_number }}" \
-            --notes "Rendered from ${{ inputs.project }} (chunks=${{ inputs.chunks }}, fps=${{ inputs.fps }}, ranges=${{ inputs.encode_ranges }}). Chunks via Actions cache; final via Release." \
-            "$GITHUB_WORKSPACE/build/final.mp4"
+          node -e '
+          const fs = require("fs");
+          const ws = process.env.GITHUB_WORKSPACE;
+          const file = ws + "/build/final.mp4";
+          const size = fs.statSync(file).size;
+          console.log("final.mp4 bytes:", size);
+          const repo = "nexorafitlab-debug/what-if-renders";
+          const tag = process.env.PROJECT + "-" + process.env.RUN_NUMBER;
+          const headers = { Authorization: "Bearer " + process.env.GH_TOKEN, Accept: "application/vnd.github+json" };
+          (async () => {
+            const create = await fetch("https://api.github.com/repos/" + repo + "/releases", {
+              method: "POST",
+              headers: Object.assign({ "Content-Type": "application/json" }, headers),
+              body: JSON.stringify({ tag_name: tag, name: process.env.PROJECT + " run " + process.env.RUN_NUMBER, body: "Rendered from " + process.env.PROJECT + " (chunks=" + process.env.CHUNKS + ", fps=" + process.env.FPS + ", ranges=" + process.env.RANGES + "). Chunks via Actions cache; final via Release." })
+            });
+            if (!create.ok) { console.error("create release failed:", create.status, await create.text()); process.exit(1); }
+            const rel = await create.json();
+            const uploadUrl = rel.upload_url.replace("{?name,label}", "") + "?name=final.mp4";
+            const buf = fs.readFileSync(file);
+            const up = await fetch(uploadUrl, { method: "POST", headers: Object.assign({ "Content-Type": "video/mp4", "Content-Length": String(buf.length) }, headers), body: buf });
+            if (!up.ok) { console.error("asset upload failed:", up.status, await up.text()); process.exit(1); }
+            const asset = await up.json();
+            console.log("Release published:", rel.html_url);
+            console.log("Asset:", asset.browser_download_url);
+          })().catch((e) => { console.error(e); process.exit(1); });
+          '
