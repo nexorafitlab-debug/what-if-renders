@@ -10,9 +10,9 @@ registerShot('s020', { draw(g, t, info) {
     const { GY } = kitchenMorning(g, t, info, {});
     kaiFig.y = GY;
     kaiFig.pose = breathe(posesAt(t, [[0, POSES.stand]]), t);
-    // "Can you stop it?" — close on Kai, the big feather on his collar
+    // "Can you stop it?" — close on Kai, the big feather on his wrist
     drawFigure(g, { ...kaiFig, expr: 'confused', talk: talkAmount(info.globalT), blink: (t % 3.7) < 0.12, look: [0, -0.2], rim });
   });
-  const [cx, cy] = featherAnchor(kaiFig, 'collar');
+  const [cx, cy] = featherAnchor(kaiFig, 'wrist');
   drawFeather(g, cx, cy, 80, { color: 'white', rot: -1.0 });
 } });
