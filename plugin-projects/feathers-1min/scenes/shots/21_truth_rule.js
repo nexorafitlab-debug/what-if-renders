@@ -14,7 +14,7 @@ registerShot('s021', { draw(g, t, info) {
     // RULE CARD 3 — the only way out: tell the truth
     drawFigure(g, { ...kaiFig, expr: exprAt(t, [[0, 'sad'], [1.4, 'determined']]), talk: talkAmount(info.globalT), blink: (t % 3.7) < 0.12, look: [0, -0.6], rim });
   });
-  const [cx, cy] = featherAnchor(kaiFig, 'collar');
+  const [cx, cy] = featherAnchor(kaiFig, 'wrist');
   drawFeather(g, cx, cy, 65, { color: 'white', rot: -1.0 });
   text(g, 'THE ONLY WAY', E.W / 2, E.H * 0.18, { size: V(36, 40), color: '#9fb4d8', font: FONTS.ui, weight: 800, spacing: 6, glow: 10, glowColor: 'rgba(159,180,216,0.4)' });
   goldLine(g, 'TO LOSE A FEATHER', E.H * 0.32, V(64, 72));
