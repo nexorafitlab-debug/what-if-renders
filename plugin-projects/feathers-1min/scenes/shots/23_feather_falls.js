@@ -10,9 +10,9 @@ registerShot('s023', { draw(g, t, info) {
     const { GY } = kitchenMorning(g, t, info, {});
     kaiFig.y = GY;
     kaiFig.pose = breathe(posesAt(t, [[0, POSES.stand], [0.6, POSES.sad]]), t);
-    // "And the feather falls." — it leaves his collar and drifts down
+    // "And the feather falls." — it leaves his wrist and drifts down
     drawFigure(g, { ...kaiFig, expr: exprAt(t, [[0, 'sad'], [0.6, 'surprised']]), talk: talkAmount(info.globalT), blink: (t % 3.7) < 0.12, look: [0.2, 0.3], rim });
   });
-  const [cx, cy] = featherAnchor(kaiFig, 'collar');
+  const [cx, cy] = featherAnchor(kaiFig, 'wrist');
   featherFall(g, cx, cy, t, { at: 0.3, dur: 1.2, fall: 300, sway: 40, rot: 0.7, len: 72, color: 'white' });
 } });
