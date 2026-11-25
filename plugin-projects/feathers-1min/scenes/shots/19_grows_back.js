@@ -13,7 +13,7 @@ registerShot('s019', { draw(g, t, info) {
     // "It hurts... And it grows back. Bigger." — the feather grows BIGGER
     drawFigure(g, { ...kaiFig, expr: exprAt(t, [[0, 'sad'], [1.4, 'scared'], [2.6, 'shocked']]), talk: talkAmount(info.globalT), blink: (t % 3.7) < 0.12, look: [0.2, 0.3], rim });
   });
-  const [cx, cy] = featherAnchor(kaiFig, 'collar');
+  const [cx, cy] = featherAnchor(kaiFig, 'wrist');
   const len = lerp(55, 105, prog(t, 0, 2.5));
   drawFeather(g, cx, cy, len, { color: 'white', rot: -1.0 + Math.sin(t * 1.2) * 0.06, glow: 0.15 });
 } });
