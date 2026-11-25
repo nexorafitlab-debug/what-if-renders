@@ -10,9 +10,9 @@ registerShot('s022', { draw(g, t, info) {
     const { GY } = kitchenMorning(g, t, info, {});
     kaiFig.y = GY;
     kaiFig.pose = breathe(posesAt(t, [[0, POSES.talk], [0.8, POSES.stand]]), t);
-    // "Say it out loud..." — Kai speaks; the collar feather trembles
+    // "Say it out loud..." — Kai speaks; the wrist feather trembles
     drawFigure(g, { ...kaiFig, expr: exprAt(t, [[0, 'determined'], [0.8, 'neutral']]), talk: talkAmount(info.globalT, 43.04, 43.82), blink: (t % 3.7) < 0.12, look: [0.2, -0.2], rim });
   });
-  const [cx, cy] = featherAnchor(kaiFig, 'collar');
+  const [cx, cy] = featherAnchor(kaiFig, 'wrist');
   drawFeather(g, cx, cy, 72, { color: 'white', rot: -1.0 + Math.sin(t * 14) * 0.06 });
 } });
