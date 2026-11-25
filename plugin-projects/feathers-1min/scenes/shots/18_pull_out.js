@@ -10,9 +10,9 @@ registerShot('s018', { draw(g, t, info) {
     const { GY } = kitchenMorning(g, t, info, {});
     kaiFig.y = GY;
     kaiFig.pose = breathe(posesAt(t, [[0, POSES.stand], [0.4, POSES.reach], [1.1, POSES.sad]]), t);
-    // "You cannot pull it out." — Kai tugs at the collar feather; it will not move
+    // "You cannot pull it out." — Kai tugs at the wrist feather; it will not move
     drawFigure(g, { ...kaiFig, expr: exprAt(t, [[0, 'determined'], [0.8, 'sad']]), talk: talkAmount(info.globalT), blink: (t % 3.7) < 0.12, look: [0.2, 0.3], rim });
   });
-  const [cx, cy] = featherAnchor(kaiFig, 'collar');
+  const [cx, cy] = featherAnchor(kaiFig, 'wrist');
   drawFeather(g, cx, cy, 72, { color: 'white', rot: -1.0 + Math.sin(t * 18) * 0.08 });
 } });
